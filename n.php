@@ -2,13 +2,13 @@
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
 echo "\e[95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
-echo "\e[96m_________________   TOHA IS THE BEST  _________________ \n";
-echo "\e[96m              INI SCRIB HASIL JIBPAK YA                 \n";
-echo "\e[96m           JADI GUNAKANLAH DENGAN BIJAK                 \n";
-echo "\e[96m          SCRIB INI TIDAK DI JUAL BELIKAN               \n";
-echo "\e[96m          MAKAN YANG KENYANG BIAR SEHAT :               \n";
-echo "\e[96m               JANGAN LUPA BERAMAL                      \n";
-echo "\e[96m       BIAR BISA MASUK SURGA DAN BSNYAK REJEKI          \n";
+echo "\e[96m_________________    TOHA IS THE BEST  _________________ \n";
+echo "\e[96m               INI SCRIB HASIL JIPlAK YA                 \n";
+echo "\e[96m            JADI GUNAKANLAH DENGAN  BIJAK                \n";
+echo "\e[96m            SCRIB INI TIDAK DI JUAL BELIKAN              \n";
+echo "\e[96m             MAKAN YANG KENYANG BIAR SEHAT :             \n";
+echo "\e[96m                JANGAN LUPA BERAMAL                      \n";
+echo "\e[96m        BIAR BISA MASUK SURGA DAN BANYAK REJEKI          \n";
 echo "\e[96m ********\e[95m".date('[d-m-Y] [H:i:s]')."\e[96m********\n";
 echo "\e[95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
@@ -38,10 +38,10 @@ else
 {
 		echo "\e[96m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";	
 		echo "\e[91m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
-		echo "\e[96m[🚫]        \e[91mSCRIPT TOHA BASNGAT        \e[96m [🚫]\n";
-	        echo "\e[96m[🚫]           \e[91mKLIK ENTER SAJA BOS KU            \e[96m [🚫]\n";
-		echo "\e[96m[🚫]    \e[91mYOK BACA DOA DULU BOSKU AGAR BISA        \e[96m [🚫]\n";
-	        echo "\e[96m[🚫]  \e[91mSELAMAT KELILING INDONESIA BOSKU WKWK.     \e[96m [🚫]\n";
+		echo "\e[96m[🚫]        \e[91mSCRIPT TOHA BANGSAT        \e[96m [🚫]\n";
+	        echo "\e[96m[🚫]        \e[91mKLIK ENTER SAJA BOS KU            \e[96m [🚫]\n";
+		echo "\e[96m[🚫]        \e[91mYOK BACA DOA DULU BOSKU AGAR BISA        \e[96m [🚫]\n";
+	        echo "\e[96m[🚫]        \e[91mBUAT GARONG GOJEK YANG BANYAK HAHAHA.     \e[96m [🚫]\n";
 		echo "\e[91m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 goto login;
 }
@@ -80,7 +80,7 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         $register = request("/v5/customers", null, $data);
         if(strpos($register, '"otp_token"')){
         $otptoken = getStr('"otp_token":"','"',$register);
-        echo color("green","📶▶️ UDAH KU SEND OTPNYA ")."\n";
+        echo color("green","📶▶️ UDAH KU KIRIM OTPNYA ")."\n";
         otp:
         echo color("yellow","💬▶️ MASUKIN KODE OTPNYA  : ");
         $otp = trim(fgets(STDIN));
@@ -92,7 +92,7 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         $uuid = getStr('"resource_owner_id":',',',$verif);
         echo color("nevy","+] TOKE ID : ".$token."\n\n");
         save("token.txt",$token);
-        echo color("nevy","\n▬▬▬▬▬▬▬▬▬▬▬▬* SUROBOYO LOST ANTI SAMBAT *▬▬▬▬▬▬▬▬▬▬▬▬");
+        echo color("nevy","\n▬▬▬▬▬▬▬▬▬▬▬▬* BOJONEGORO MATOH*▬▬▬▬▬▬▬▬▬▬▬▬");
         echo "\n".color("nevy","# CLAIM VOUCHER GOPUD 1 ");
         echo "\n".color("yellow","# TUNGGU YA ");
         for($a=1;$a<=3;$a++){
@@ -225,8 +225,8 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
          $pilih1 = trim(fgets(STDIN));
          if($pilih1 == "y" || $pilih1 == "Y"){
          //if($pilih1 == "y" && strpos($no, "628")){
-         echo color("nevy","▬▬▬▬▬▬▬▬▬▬▬▬▬▬🔧 PIN GOPAY = 010101 🔧▬▬▬▬▬▬▬▬▬▬▬▬")."\n";
-         $data2 = '{"pin":"010101"}';
+         echo color("nevy","▬▬▬▬▬▬▬▬▬▬▬▬▬▬🔧 PIN GOPAY = 112233 🔧▬▬▬▬▬▬▬▬▬▬▬▬")."\n";
+         $data2 = '{"pin":"112233"}';
          $getotpsetpin = request("/wallet/pin", $token, $data2, null, null, $uuid);
          echo "OTP PIN 6 digit : ";
          $otpsetpin = trim(fgets(STDIN));
