@@ -1,6 +1,7 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
+include "functionx.php";
 echo "\e[95m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 echo "\e[96m_________________    TOHA IS THE BEST  _________________ \n";
 echo "\e[96m               INI SCRIB HASIL JIPlAK YA                 \n";
